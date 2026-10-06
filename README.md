@@ -1,28 +1,33 @@
-# Left Ctrl Video Speed Toggle
+# ⚡ Left Ctrl 2.5x Video Speed Toggle
 
-一个适用于 Chromium 浏览器的简单扩展。
+A lightweight, smart browser extension that allows you to instantly toggle video playback speed to 2.5x with a single press of the `Left Ctrl` key.
 
-## 功能
+---
 
-- 单独按下并松开一次 **左 Ctrl**：当前视频切换到 **2.5×**
-- 再单独按一次 **左 Ctrl**：恢复该视频原本的播放速度
-- 不会误触发 Ctrl+C、Ctrl+V、Ctrl+点击、Ctrl+滚轮等组合操作
-- 优先选择画中画、全屏、正在播放或画面最大的 video
-- 支持多数 iframe 内的视频播放器
-- 切换时右上角会显示速度提示
+## ✨ Features
 
-## 安装（Chrome / Edge / Brave / Opera）
+- **🚀 Instant Toggle:** Press and release `Left Ctrl` alone to jump to 2.5x speed. Press again to restore the original speed.
+- **🧠 Smart Detection:** Automatically detects the most relevant video on the page, prioritizing Picture-in-Picture (PiP), fullscreen, or currently playing videos. It even works inside most iframes!
+- **🛡️ Conflict-Free:** Smartly designed so it won't interfere with your regular shortcuts like `Ctrl+C`, `Ctrl+V`, `Ctrl+Click`, or `Ctrl+Scroll`.
+- **💬 Visual Feedback:** Displays a sleek, non-intrusive toast notification in the top right corner indicating the current playback speed.
 
-1. 解压 `left-ctrl-video-speed-toggle.zip`
-2. 打开扩展管理页：
-   - Chrome：`chrome://extensions`
-   - Edge：`edge://extensions`
-3. 开启“开发者模式”
-4. 点击“加载已解压的扩展程序”
-5. 选择解压后的 `left-ctrl-video-speed-toggle` 文件夹
-6. 刷新已经打开的视频网页
+## 🛠️ Installation (Chrome / Edge / Brave / Opera)
 
-## 注意
+Since this extension is not yet published on the Web Store, you can easily install it locally in Developer Mode:
 
-浏览器不允许扩展在部分受保护页面运行，例如 `chrome://` 页面、扩展商店页面等。
-某些使用特殊加密播放器或非 HTML `<video>` 技术的网站也可能无法控制。
+1. **Download the code:** Click the green **Code** button on this GitHub page and select **Download ZIP**, then extract the folder on your computer.
+2. **Open Extensions Page:** 
+   - Chrome / Brave / Opera: Type `chrome://extensions` in the address bar.
+   - Edge: Type `edge://extensions` in the address bar.
+3. **Enable Developer Mode:** Turn on the "Developer mode" toggle (usually located in the top right corner).
+4. **Load Unpacked:** Click the **Load unpacked** button in the top left and select the folder you just extracted.
+5. **Done!** Refresh any page with a video (like YouTube) and tap `Left Ctrl` to test it out!
+
+## ⚠ Notes
+
+- Browser security policies prevent extensions from running on protected pages like `chrome://` settings pages or the Chrome Web Store.
+- Some websites with highly customized or DRM-protected video players may block external speed modifications.
+
+## 📄 License
+
+MIT License
