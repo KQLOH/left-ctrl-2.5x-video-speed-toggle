@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Left Ctrl Video Speed Toggle",
+  "name": "Left Ctrl 2.5x Video Speed Toggle",
   "version": "1.0.0",
   "description": "Press and release Left Ctrl by itself to toggle the active video between 2.5× and its original speed.",
   "content_scripts": [
